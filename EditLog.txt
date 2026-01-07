@@ -5,7 +5,18 @@ This is Log of Edits
             that my local repo didnt have main derived from my github which i resolved 
             and managed to solve the issue , and then cleared of master branch , this 
             taught me error handling and branch divergence in Github , Also updated Readme 
-            and added this log file to keep a record of changes that i am making, 
+            and added this log file to keep a record of changes that i am making.
 
-            special thanks to my better half ChatGPT 😅
+            made a Rpg character stat display pattern program that inputs character name
+            , strength, intelligence, charisma(rizz), as stats and based on certain 
+            limitations , sets boundaries and then , to display the result in a special 
+            formatted manner, 
+            concepts used:
+            functions
+            condintionals
+            list comprehension
+            output formatting
+            user inputs
+
+            special thanks to my better half ChatGPT 😅, who helps me learn
              ~Rushaan (DreRus)
