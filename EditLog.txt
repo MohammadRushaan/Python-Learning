@@ -1,0 +1,11 @@
+This is Log of Edits
+
+7 jan 2026 : I made a Caesar Cypher program which i practised using Freecodecamp ,
+            I accidentaly created a 2nd branch master and pushed to that , issue was 
+            that my local repo didnt have main derived from my github which i resolved 
+            and managed to solve the issue , and then cleared of master branch , this 
+            taught me error handling and branch divergence in Github , Also updated Readme 
+            and added this log file to keep a record of changes that i am making, 
+
+            special thanks to my better half ChatGPT 😅
+             ~Rushaan (DreRus)
