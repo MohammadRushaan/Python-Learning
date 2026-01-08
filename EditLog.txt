@@ -28,4 +28,12 @@ This is Log of Edits
             neat manner and i can also add versions without deleting the previous 
             one.
 
+            Created a new CountDown Timer program , that takes seconds input from usser
+            and then runs the timer , I learned the use of python modules and plan to 
+            learn more of them they are basically predefined local APIs .
+            This program taught me:
+            Time module usage and utilising its functions to count CountDown
+            formatting output 
+            new techniques through vs code autocomplete
+
             ~Rushaan 
