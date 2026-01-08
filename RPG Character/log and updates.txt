@@ -1,0 +1,16 @@
+Hello 
+
+This is a log file for the RPG Character Stat program.
+
+Scalability and Improvement scope:
+		Modularise by separating validation logic, use certain constants as boundaries,
+		convert into a class and call stats for multiple characters , generate random stat outputs ,add equipment
+		bonuses, save characters using json .
+				
+		
+
+LOG:
+
+7 Jan 2026: v  1.00 added 
+		This version holds the first RPG char stat program , This version is capable of taking input from user 
+		and based on certain predefined scope deduces the stats of the RPG char 

@@ -1,0 +1,22 @@
+Hello 
+
+This is a log file for the Caesar cipher program.
+
+Scalability and Improvement scope:
+		Add support for numbers, special characters, eventually ASCII. This will teach character encoding 
+		Modular arithmetic, Edge-case handling.
+		Instead of two separate logics , a single function with mode choice between encrypt and decrypt
+		Variable and Dynamic shift
+		Input/output upgrades
+		Modular design by splitting into classes
+		making it a library
+		Add a CLI
+		Add logging and error handling
+		
+		
+
+LOG:
+
+7 Jan 2026: v  1.00 added 
+		This version holds the first Caesar cipher program , This version is capable of dealing with the letters 
+		both lowercase and uppercase , with shift constraints of 25 based on no. of alphabets ,
