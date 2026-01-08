@@ -20,3 +20,12 @@ This is Log of Edits
 
             special thanks to my better half ChatGPT 😅, who helps me learn
              ~Rushaan (DreRus)
+
+8 Jan 2026 : I added my projects into their seperate folders so that i could manage 
+            each project in a version wise manner , keeping track of project wise 
+            changes and improvements as i progress with my programming knowledge 
+            adding new features , This way all project changes are recorded in a 
+            neat manner and i can also add versions without deleting the previous 
+            one.
+
+            ~Rushaan 
