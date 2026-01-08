@@ -1,0 +1,16 @@
+Hello 
+
+This is a log file for the CountDown Timer program.
+
+Scalability and Improvement scope:
+		Add input validation to prevent crashes, modularise the code to reuse it as a function, clean real time display
+        adding pause and resume option, make it in a Presets form (Pomodoro / Exam Timer), add notifications and sound,
+        Drift-free timing, GUI Version, Web-based Timer, logging , configuration and testing
+		
+		
+
+LOG:
+
+8 Jan 2026: v  1.00 added 
+		This version holds the first timer program , This version is capable of taking total time as seconds from 
+        user , and then run a countdown in hr:min:sec format , 
