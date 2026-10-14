@@ -52,6 +52,13 @@ employee_code = 'EMP-2024-SD'
 starts_with_emp = employee_code.startswith('EMP')
 ends_with_com = clean_email.endswith('.com')
 
-print(f"Code: {employee_code}")
-print(f"Starts with EMP: {starts_with_emp}")
-print(f"Clean email:  {clean_email}")
+print(f'Code: {employee_code}')
+print(f'Starts with EMP: {starts_with_emp}')
+print(f'Clean email: {clean_email}')
+print(f'Ends with .com: {ends_with_com}')
+
+dot_count = clean_email.count('.')
+dash_count = employee_code.count('-')
+
+print(f"Dots in email: {dot_count}")
+print(f"Dashes in code: {dash_count}")
