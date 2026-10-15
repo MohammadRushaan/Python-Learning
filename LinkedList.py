@@ -11,7 +11,18 @@ class LinkedList:
         # Initially the list is empty
 
     def __traverse__(self):
-        pass
+        if self.head is None:
+            return "{}"
+        else:
+            last = self.head
+            return_string = f"[{last.value}]"
+
+            while last.next:
+                last =last.next
+                return_string += f" , {last.value}" 
+            return_string +="]"
+
+            return return_string
 
     # O(n)
     def __contains__(self, value):
@@ -34,7 +45,7 @@ class LinkedList:
     # O(n) linear runtime
     def append(self, value):
         if self.head is None:
-            self.head = Node.value
+            self.head = Node(value)
         else:
             last = self.head
             while last.next:
@@ -67,16 +78,61 @@ class LinkedList:
                 last.next = new_node
 
     def delete(self, value):
-        pass
+        last =self.head
+
+        if last is not None:
+            if last.value == value:
+                self.head = last.next
+            else:
+                while last.next:
+                    if last.next.value == value:
+                        last.next = last.next.next
+                        break
+                    last = last.next 
+            
 
     def pop(self, index):
-        pass
+        if self.head is None:
+            raise ValueError("Index Out of Bounds")
+        else:
+            last =  self.head
+            for i in range(index-1):
+                if last.next is None:
+                    raise ValueError("Index Out of Bounds")
+                last = last.next
+
+            if last.next is None:
+                raise ValueError("Index Out of Bounds")
+            else:
+                last.next = last.next.next
+
 
     def get(self, index):
-        pass
+        if self.head is None:
+            raise ValueError("Index Out of Bounds")
+        else:
+            last =self.head
+            for i in range(index):
+                if last.next is None:
+                    raise ValueError("Index Out of Bounds")
+                last =last.next
+            return last.value
 
-    def print(self):
-        pass
 
 if __name__ == "__main__":
-    pass
+    ll = LinkedList()
+
+    ll.append(10)
+    ll.append(5)
+    ll.append(18)
+    ll.append(22)
+
+    ll.prepend(60)
+
+    ll.insert(200,1)
+
+    ll.delete(18)
+
+    ll.pop(1)
+
+    print(ll)
